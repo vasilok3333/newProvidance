@@ -1,0 +1,561 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="icon" href="./img/favicon.png" type="image/x-icon" />
+    <title>New Providance</title>
+
+</head>
+
+<body>
+    <!-- Preloader -->
+    <div id="p_prldr">
+        <div class="spinner-border text-light" role="status">
+            <img src="./img/preloader/preloader.svg">
+        </div>
+    </div>
+    <!-- Preloader -->
+    <!-- Header -->
+    <header id="home">
+        <div class="navbar">
+            <div class="navbar__container">
+                <button id="hamburger" class="hamburger">☰</button>
+                <ul class="navbar__left-side">
+                    <li><a href="#home">tour</a></li>
+                    <li><a href="#features">features</a></li>
+                    <li><a href="#pricing">pricing</a></li>
+                </ul>
+                <div class="navbar__center">
+                    <h1 class="navbar-title"><span>new</span>providance</h1>
+                </div>
+                <ul class="navbar__right-side">
+                    <li><a href="#customers">help</a></li>
+                    <li><a href="#contacts">contacts</a></li>
+                    <li>
+                        <button onclick="location.href='#buy__section'" type="button" class="navbar__button">
+                            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                                width="17px" height="21px">
+                                <path fill-rule="evenodd" fill="rgb(255, 255, 255)"
+                                    d="M14.339,11.570 C14.316,9.051 16.382,7.826 16.476,7.769 C15.306,6.048 13.493,5.812 12.856,5.794 C11.333,5.632 9.856,6.713 9.080,6.713 C8.289,6.713 7.094,5.809 5.806,5.836 C4.150,5.862 2.600,6.830 1.749,8.333 C-0.005,11.399 1.303,15.904 2.984,18.382 C3.825,19.596 4.808,20.951 6.094,20.903 C7.352,20.851 7.822,20.094 9.340,20.094 C10.844,20.094 11.286,20.903 12.597,20.873 C13.947,20.851 14.798,19.654 15.609,18.430 C16.581,17.039 16.971,15.669 16.986,15.598 C16.955,15.587 14.364,14.589 14.339,11.570 ZM11.861,4.163 C12.538,3.309 13.001,2.147 12.872,0.969 C11.893,1.012 10.668,1.652 9.963,2.487 C9.338,3.223 8.781,4.430 8.925,5.565 C10.025,5.648 11.155,5.004 11.861,4.163 Z">
+                                </path>
+                            </svg>
+                            <p class="navbar__button-description">get app</p>
+                        </button>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div id="hamburger_menu" class="hamburger-menu">
+            <ul>
+                <li><button id="hamburger_close" class="hamburger"><img src="./img/header/close_but.png"></button></li>
+                <li><a class="hamb__item" href="#home">tour</a></li>
+                <li><a class="hamb__item" href="#features">features</a></li>
+                <li><a class="hamb__item" href="#pricing">pricing</a></li>
+                <li><a class="hamb__item" href="#customers">help</a></li>
+                <li><a class="hamb__item" href="#contacts">contacts</a></li>
+                <li>
+                    <button onclick="location.href='#buy__section'" type="button" class="navbar__button">
+                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="17px"
+                            height="21px">
+                            <path fill-rule="evenodd" fill="rgb(255, 255, 255)"
+                                d="M14.339,11.570 C14.316,9.051 16.382,7.826 16.476,7.769 C15.306,6.048 13.493,5.812 12.856,5.794 C11.333,5.632 9.856,6.713 9.080,6.713 C8.289,6.713 7.094,5.809 5.806,5.836 C4.150,5.862 2.600,6.830 1.749,8.333 C-0.005,11.399 1.303,15.904 2.984,18.382 C3.825,19.596 4.808,20.951 6.094,20.903 C7.352,20.851 7.822,20.094 9.340,20.094 C10.844,20.094 11.286,20.903 12.597,20.873 C13.947,20.851 14.798,19.654 15.609,18.430 C16.581,17.039 16.971,15.669 16.986,15.598 C16.955,15.587 14.364,14.589 14.339,11.570 ZM11.861,4.163 C12.538,3.309 13.001,2.147 12.872,0.969 C11.893,1.012 10.668,1.652 9.963,2.487 C9.338,3.223 8.781,4.430 8.925,5.565 C10.025,5.648 11.155,5.004 11.861,4.163 Z">
+                            </path>
+                        </svg>
+                        <p class="navbar__button-description">get app</p>
+                    </button>
+                </li>
+            </ul>
+        </div>
+        <div class="intro__container">
+            <h2 class="intro-title">What happens tomorrow?</h2>
+            <p class="intro-description">The sight of the tumblers restored Bob Sawyer to a degree of equanimity which
+                he had not possessed since his interview with his landlady. His face brightened up, and he began to feel
+                quite convivial.</p>
+            <a href="#iphone__ftr" class="intro-button">
+                <img class="intro-button-icon" src="./img/header/play_icon.png" alt="play_icon">
+                <p>Watch video</p>
+            </a>
+            <img class="intro-phone" src='./img/header/intro_iphone.png' alt="intro_iphone">
+        </div>
+    </header>
+
+    <!-- / Header -->
+
+    <!-- Features -->
+
+    <section class="features" id="features">
+        <div class="features__wrapper">
+            <div class="features__block">
+                <img src="img/features/lock.png" alt="Lock_icon" class="feature_item">
+                <h4 class="features-title">Real-time all the time</h4>
+                <div class="features-description">
+                    <p>Thus much I thought proper to tell you in relation to yourself, and to the trust I reposed in
+                        you.
+                    </p>
+                    <p> Just then her head struck against the roof of the hall: in fact she was now more than nine feet
+                        high, and she at once took up the little golden key and hurried off to the garden door.</p>
+                </div>
+            </div>
+
+            <div class="features__block">
+                <img src="img/features/clock.png" alt="Clock_icon" class="feature_item">
+                <h4 class="features-title">Adopt without any obstacles</h4>
+                <div class="features-description">
+                    <p>This sounded a very good reason, and Alice was quite pleased to know it. 'I never thought of that
+                        before!' she said.
+                    </p>
+                    <p>This I have produced as a scantling of Jack’s great eloquence and the force of his reasoning upon
+                        such abstruse matters.</p>
+                </div>
+            </div>
+        </div>
+        <div class="features__divider"><img src="img/features/divider.png" alt="divider"></div>
+    </section>
+
+    <!-- / Features -->
+
+    <!-- Iphone Feature -->
+
+    <section class="iphone__feature" id="iphone__ftr">
+
+        <div class="iphone__ftr__wrapper">
+            <div class="iphone__ftr-img"></div>
+            <div class="iphone__ftr-container">
+                <div class="iphone__ftr-text">
+                    <h3>Your day<span style="display: block;">is protected</span></h3>
+
+                    <p>There have not been any since we have lived here, said my mother.</p>
+
+                    <p>We thought - Mr. Copperfield thought - it was quite a large rookery; but the nests were very old
+                        ones, and the birds have deserted them a long while.</p>
+                </div>
+                <div class="iphone__ftr__buttons">
+                    <button onclick="location.href='#pricing'" class="iphone__ftr__btn-try">
+                        <a href="#pricing">Try to hack us</a>
+                        <span class="ftr-arrow">
+                            <svgxmlns="http: //www.w3.org/2000/svg" class="ftr-svg__wrap"
+                                xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs"
+                                width="14" height="13" viewBox="0 0.558 14 11.884" fill="#fff"><svg
+                                    xmlns="http://www.w3.org/2000/svg" width="14" height="13"
+                                    viewBox="1 1.934 13.031 11.061">
+                                    <path class="ftr-svg" paint-order="stroke fill markers" fill-rule="evenodd"
+                                        d="M9.521 2.357l4.087 4.086a1.445 1.445 0 0 1-2.043 2.044L7.479 4.4A1.445 1.445 0 0 1 9.52 2.357zm4.087 4.086a1.445 1.445 0 0 1 0 2.044L9.52 12.572A1.445 1.445 0 0 1 7.48 10.53l4.086-4.087a1.444 1.444 0 0 1 2.043 0zM2.5 6h10a1.5 1.5 0 1 1 0 3h-10a1.5 1.5 0 1 1 0-3z" />
+                                </svg></svg>
+                        </span>
+                    </button>
+                    <button class="iphone__ftr__btn-learn">
+                        <a href="#buy__section">Learn more</a>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- / Iphone Feature -->
+
+
+    <!-- Map Feature -->
+
+
+    <section class="map__feature">
+        <div class="map__ftr__wrapper">
+            <div class="map__ftr-text">
+                <br>
+                <h3>We are almost everywhere</h3>
+                <br>
+
+                <p>Now the races of these two have been for some ages utterly extinct, and besides to discourse any
+                    further of them would not be at all to my purpose.<br><br>Thus much I thought proper to tell you in
+                    relation to yourself, and to the trust I reposed in you.
+                </p>
+                <br>
+                <div class="map__ftr-partners">
+                    <br>
+                    <p>Partners</p>
+                    <br>
+                    <div class="map__ftr-logos">
+                        <img class="map__ftr-dropbox" src="img/map-feature/Dropbox_Logo.svg" alt="DropboxLogo">
+                        <img src="img/map-feature/Evernote_Logo.svg" alt="EvernoteLogo">
+                    </div>
+                    <br>
+                </div>
+
+            </div>
+
+            <img src="img/map-feature/world_map.png" alt="world_map">
+        </div>
+    </section>
+
+
+    <!-- / Map Feature -->
+
+
+
+    <!--Iphone Screens-->
+    <section id="iphone__screens" class="iphone__screens">
+        <div class="iphone__screens-container">
+
+            <div class="iphone__screens-name">
+                <h1 class="iphone__screens-title">Beatiful Interface</h1>
+                <p class="iphone__screens-subtitle">landing screen</p>
+            </div>
+            <div class="iphone__slider">
+                <!-- <img src="./img/iphone-feature/iPhone.png" alt="iphone" class='iphone_image'/> -->
+                <div class="iphone__slider-items">
+
+
+                </div>
+                <div class="under_iphone">
+                    <span id="btn-prev2">
+                        <img src="./img/customers/arrow-left.png" alt="arrow left">
+                    </span>
+                    <span id="btn-next2">
+                        <img src="./img/customers/arrow-rigth.png" alt="arrow rigth">
+                    </span>
+
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+    <!--Iphone Screens-->
+    <!--Buy section-->
+    <section id="buy__section" class="buy__section">
+        <div class="buy__suptitle">NewProvidence</div>
+        <h2 class="buy-title">Get it to your smartphone</h2>
+        <form method="GET" class="buy__field">
+            <input class="buy__field-input" type="text" placeholder="your e-mail">
+            <button type="submit" class="buy__field-confirm">Send invite</button>
+        </form>
+        <div class="buy__sub-title">or Download From</div>
+        <div onclick="location.href='#home'" class="download__button">
+            <div class="download-title">Download on the</div>
+            <div class="download-subtitle">App Store</div>
+            <svg class="apple-icon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                xmlns:svgjs="http://svgjs.com/svgjs" width="25" height="29" viewBox="0.07 0 24.86 29" fill="#fff"><svg
+                    xmlns="http://www.w3.org/2000/svg" width="25" height="29" viewBox="1.009 1.011 23.992 27.988">
+                    <path paint-order="stroke fill markers" fill-rule="evenodd"
+                        d="M18.829 7.26c3.267 0 5.355 3.138 5.355 3.138s-3.186 1.717-3.186 5.445c0 4.425 4.003 5.713 4.003 5.713s-3.16 7.443-6.708 7.443c-1.995 0-2.129-1.14-4.78-1.14-2.302 0-3.079 1.14-4.833 1.14-3.347 0-7.671-7.255-7.671-13.156 0-6.129 4.378-8.583 7.122-8.583 2.41 0 3.415 1.408 5.356 1.408 1.633 0 2.919-1.408 5.342-1.408zm-.562-6.25c.482 3.005-2.263 6.72-5.543 6.599-.482-3.823 3.052-6.397 5.543-6.598z" />
+                </svg></svg>
+        </div>
+
+    </section>
+    <!--Buy section-->
+    <!--Customers-->
+
+    <section id="customers" class="customers__section">
+        <div class="customers__wrapper">
+            <div class="customers__slider">
+                <div class="customers__slides">
+
+                    <div class="customers__slide" id="customer1">
+                        <img src="../newProvidance/img/customers/customer1.png" alt="Jonh Deph">
+                    </div>
+                    <div class="customers__slide" id="customer2">
+                        <img src="../newProvidance/img/customers/customer2.png" alt="Armi Felf">
+                    </div>
+                    <div class="customers__slide" id="customer3">
+                        <img src="../newProvidance/img/customers/customer3.png" alt="Cameron Dowman">
+                    </div>
+                    <div class="customers__slide" id="customer4">
+                        <img src="../newProvidance/img/customers/customer4.png" alt="Adam Vik">
+                    </div>
+                    <div class="customers__slide" id="customer5">
+                        <img src="../newProvidance/img/customers/customer5.png" alt="Richael Lerg">
+                    </div>
+
+                </div>
+                <span id="btn-prev">
+                    <img src="./img/customers/arrow-left.png" alt="arrow left">
+                </span>
+                <span id="btn-next">
+                    <img src="./img/customers/arrow-rigth.png" alt="arrow rigth">
+                </span>
+            </div>
+            <div class="customers__feedback">
+                <div class="feedback-item" id='customer1' rating="3">
+                    <h2 class='feedback-title'>
+                        New Providence is the great UI kit
+                    </h2>
+                    <p class='feedback-quote'>
+                        “The best and most beautiful things in the world cannot be seen or even touched - they must be
+                        felt with the heart.”
+                    </p>
+                    <div class="feedback-stars">
+                       
+                    </div>
+                    <p class="feedback-name">Jonh Deph</p>
+                </div>
+                <div class='feedback-item' id='customer2' rating="2.5">
+                    <h2 class='feedback-title'>
+                        New Providence is the great UI kit
+                    </h2>
+                    <p class='feedback-quote'>
+                        “If you look at what you have in life, you'll always have more. If you look at what you don't
+                        have in life, you'll never have enough.”
+                    </p>
+                    <div class="feedback-stars">
+                      
+                    </div>
+                    <p class="feedback-name">Armi Felf</p>
+                </div>
+                <div class='feedback-item active' id='customer3' rating="5">
+                    <h2 class='feedback-title'>
+                        New Providence is the great UI kit
+                    </h2>
+                    <p class='feedback-quote'>
+                        “Super job, super wife, super car, super house - it all is about me”
+                    </p>
+                    <div class="feedback-stars">
+                     
+                    </div>
+                    <p class="feedback-name">Cameron Dowman</p>
+                </div>
+                <div class='feedback-item ' id='customer4' rating="1.5">
+                    <h2 class='feedback-title'>
+                        New Providence is the great UI kit
+                    </h2>
+                    <p class='feedback-quote'>
+                        “If you set your goals ridiculously high and it's a failure, you will fail above everyone else's
+                        success.”
+                    </p>
+                    <div class="feedback-stars">
+                        
+                    </div>
+                    <p class="feedback-name">Adam Vik</p>
+                </div>
+                <div class='feedback-item' id='customer5' rating="4.5">
+                    <h2 class='feedback-title'>
+                        New Providence is the great UI kit
+                    </h2>
+                    <p class='feedback-quote'>
+                        “Just then her head struck against the roof of the hall: in fact she was now more than nine feet
+                        high, and she at once took up the little golden key and hurried off to the garden door.”
+                    </p>
+                    <div class="feedback-stars">
+                       
+                    </div>
+                    <p class="feedback-name">Richael Lerg</p>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!--End Customers-->
+
+
+    <!--Plan-->
+    <section id="pricing" class="plan">
+        <div class="plan__wrapper">
+            <div>
+                <h2 class="plan-title">Choose your perfect plan</h2>
+                <div class="plan__toggle">
+                    <p class="plan__toggle-description">you are</p>
+                    <div class="plan__toggle-wrapper">
+                        <div id="individual__toggle" class="plan__toggle-unfocused">Individual</div>
+                        <div id="company__toggle" class="plan__toggle-unfocused plan__toggle-focused">Company</div>
+                    </div>
+                    <p class="plan-description">Thus much I thought proper to tell you in relation to yourself, and to
+                        the trust I reposed in you.
+                    </p>
+                    <div class="plan-link">
+                        Have a bigger team? <a href="#home">Let‘s talk</a>
+                    </div>
+                </div>
+            </div>
+            <div class="plan__items">
+                <div id="starter__toggle" class="plan__item plan__item-focused">
+                    <h3 class="plan__item-title">starter</h3>
+                    <div class="plan__item-price">
+                        <p>free</p>
+                    </div>
+                    <p class="plan__item-description">Build your schedule every day</p>
+                    <div class="plan__item-options">
+                        <p class="plan__item-option">Unlimeted events</p>
+                        <p class="plan__item-option">Connect Dropbox & Evernote</p>
+                    </div>
+                    <a id="started__button" class="plan__item-confirm plan__item-confirm-focused">Get started</a>
+                </div>
+                <div id="pro__toggle" class="plan__item">
+                    <h3 class="plan__item-title">pro</h3>
+                    <div class="plan__item-price">
+                        <p>$4.99</p>
+                    </div>
+                    <p class="plan__item-description">Make your life better</p>
+                    <div class="plan__item-options">
+                        <p class="plan__item-option">Unlimeted events</p>
+                        <p class="plan__item-option">Connect Dropbox & Evernote</p>
+                        <p class="plan__item-option">Personal Assistant</p>
+                    </div>
+                    <a id="pro__button" class="plan__item-confirm">Make me a Pro</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Plan-->
+    <!--Subscribe-->
+    <section class="subscribe">
+        <h2 class="subscribe-title">Subscribe our newsletters</h2>
+        <form method="GET" class="subscribe__field">
+            <input class="subscribe__field-input" type="text" placeholder="Your e-mail">
+            <button type="submit" class="subscribe__field-confirm">Subscribe</button>
+        </form>
+        <p class="subscribe-description">We promise to never spam you.</p>
+    </section>
+    <!--Subscribe-->
+    <!--Footer-->
+    <footer id="contacts" class="footer">
+        <div class="footer__divider"><img src="img/features/divider.png" alt="divider"></div>
+        <div class="footer__items">
+            <div class="footer__left-item">
+                <img class="footer__left-logo" src="./img/footer/NewProvidence_logo.png">
+                <p class="footer__left-description">It was some time before he obtained any answer, and the reply, when
+                    made, was unpropitious.</p>
+                <a href="#buy__section">
+                    <svg class="footer__left-store" xmlns="http://www.w3.org/2000/svg"
+                        xmlns:xlink="http://www.w3.org/1999/xlink" width="140" height="42" viewBox="215 7381 140 42">
+                        <image
+                            xlink:href="data:image/png;base64,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"
+                            width="140" height="42" x="215" y="7381" />
+                    </svg>
+                </a>
+                <nav class="footer__social">
+                    <ul class="footer__social-items">
+                        <li>
+                            <a href="#home">
+                                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                                    xmlns:svgjs="http://svgjs.com/svgjs" width="18" height="15"
+                                    viewBox="0 0.088 18 14.824" fill="#26272d" opacity=".302"><svg
+                                        xmlns="http://www.w3.org/2000/svg" width="18" height="15"
+                                        viewBox="1.002 1.001 16.998 13.999">
+                                        <path class="footer__svg" paint-order="stroke fill markers" fill-rule="evenodd"
+                                            d="M18 2.658a6.93 6.93 0 0 1-2.003.557A3.538 3.538 0 0 0 17.53 1.26a6.928 6.928 0 0 1-2.215.858A3.458 3.458 0 0 0 12.77 1c-1.926 0-3.488 1.582-3.488 3.534 0 .278.032.547.09.806-2.897-.148-5.466-1.555-7.186-3.693-.3.522-.472 1.13-.472 1.777 0 1.226.616 2.308 1.551 2.942a3.452 3.452 0 0 1-1.58-.443v.045c0 1.712 1.202 3.14 2.798 3.465a3.465 3.465 0 0 1-1.575.06c.444 1.404 1.732 2.426 3.258 2.454a6.939 6.939 0 0 1-4.332 1.513c-.28 0-.559-.016-.832-.049A9.78 9.78 0 0 0 6.348 15c6.414 0 9.922-5.384 9.922-10.054 0-.154-.004-.306-.01-.457A7.149 7.149 0 0 0 18 2.66z" />
+                                    </svg></svg>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#home">
+                                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                                    xmlns:svgjs="http://svgjs.com/svgjs" width="10" height="19"
+                                    viewBox="0.238 0 9.524 19" fill="#26272d" opacity=".302"><svg
+                                        xmlns="http://www.w3.org/2000/svg" width="10" height="19"
+                                        viewBox="1.989 1 9.018 17.991">
+                                        <path class="footer__svg" paint-order="stroke fill markers" fill-rule="evenodd"
+                                            d="M7.985 18.992H3.987v-8.496H1.99V7.222h1.998V5.258C3.987 2.589 5.115 1 8.32 1h2.668v3.273H9.32c-1.248 0-1.33.458-1.33 1.312l-.006 1.637h3.022l-.354 3.274H7.985v8.496z" />
+                                    </svg></svg>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#home">
+                                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                                    xmlns:svgjs="http://svgjs.com/svgjs" width="25" height="16"
+                                    viewBox="0 0.188 25 15.624" fill="#26272d" opacity=".302"><svg
+                                        xmlns="http://www.w3.org/2000/svg" width="25" height="16"
+                                        viewBox="1.001 1 24 14.999">
+                                        <path class="footer__svg" paint-order="stroke fill markers" fill-rule="evenodd"
+                                            d="M8.615 15.999c-4.205 0-7.614-3.357-7.614-7.5C1 4.36 4.41 1 8.615 1c1.98 0 3.783.745 5.137 1.966L11.508 5.13a4.503 4.503 0 0 0-2.893-1.045c-2.475 0-4.482 1.977-4.482 4.415 0 2.438 2.007 4.414 4.482 4.414a4.48 4.48 0 0 0 4.19-2.848H8.52V6.934h7.544c.109.505.166 1.029.166 1.566 0 4.142-3.409 7.499-7.614 7.499zM25 9.069h-2.65v2.611h-1.928V9.07h-2.65V7.17h2.65v-2.61h1.928v2.61H25V9.07z" />
+                                    </svg></svg>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#home">
+                                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                                    xmlns:svgjs="http://svgjs.com/svgjs" width="11" height="17"
+                                    viewBox="0.587 0 9.827 17" fill="#26272d" opacity=".302"><svg
+                                        xmlns="http://www.w3.org/2000/svg" width="11" height="17"
+                                        viewBox="2 2 9.251 16.003">
+                                        <path class="footer__svg" paint-order="stroke fill markers" fill-rule="evenodd"
+                                            d="M10.497 14.783c-.291.142-.848.265-1.264.276-1.253.035-1.245-1.18-1.256-1.86V8.4H11V6H7.977V2L5.1 2.004c-.038 0-.104.034-.113.12C4.853 3.373 4.375 5.126 2 6v2.403L3.98 8.4V14c0 1.79 1.147 4.062 4.558 4.002 1.151-.02 2.43-.513 2.712-.937l-.753-2.282z" />
+                                    </svg></svg>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#home">
+                                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                                    xmlns:svgjs="http://svgjs.com/svgjs" width="15" height="18"
+                                    viewBox="0.095 0 14.809 18" fill="#26272d" opacity=".302"><svg
+                                        xmlns="http://www.w3.org/2000/svg" width="15" height="18"
+                                        viewBox="1.985 1.992 14 17.016">
+                                        <path class="footer__svg" paint-order="stroke fill markers" fill-rule="evenodd"
+                                            d="M7.74 13.246c-.472 2.342-1.05 4.588-2.76 5.762-.527-3.541.776-6.2 1.38-9.023-1.03-1.641.125-4.945 2.3-4.13 2.676 1-2.318 6.101 1.035 6.739 3.5.665 4.93-5.743 2.759-7.827-3.136-3.009-9.13-.068-8.393 4.24.18 1.053 1.33 1.373.46 2.826-2.007-.42-2.606-1.917-2.53-3.913.125-3.267 3.105-5.554 6.094-5.87 3.78-.401 7.328 1.312 7.818 4.674.551 3.795-1.706 7.905-5.749 7.609-1.095-.08-1.555-.593-2.414-1.087z" />
+                                    </svg></svg></a>
+                        </li>
+                        <li>
+                            <a href="#home">
+                                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                                    xmlns:svgjs="http://svgjs.com/svgjs" width="17" height="16"
+                                    viewBox="0 0.032 17 15.936" fill="#26272d" opacity=".302"><svg
+                                        xmlns="http://www.w3.org/2000/svg" width="17" height="16"
+                                        viewBox="1.009 1.011 15.998 14.997">
+                                        <path class="footer__svg" paint-order="stroke fill markers" fill-rule="evenodd"
+                                            d="M4.64 16.008V5.89H1.212v10.12H4.64zm-1.714-11.5c1.196 0 1.94-.777 1.94-1.748-.022-.993-.744-1.749-1.917-1.749-1.174 0-1.94.756-1.94 1.749 0 .971.743 1.748 1.894 1.748h.023zm3.613 11.5h3.43v-5.65c0-.302.02-.606.113-.821.246-.605.811-1.23 1.757-1.23 1.242 0 1.739.928 1.739 2.288v5.413h3.43v-5.802c0-3.109-1.694-4.554-3.95-4.554-1.85 0-2.661 1.014-3.113 1.705h.023V5.889h-3.43c.046.95 0 10.12 0 10.12z" />
+                                    </svg></svg>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="footer__right-items">
+                <div class="footer__right-item">
+                    <h3 class="footer__right-title">learn more</h3>
+                    <a href="#home">How it works?</a>
+                    <a href="#home">Meeting tools</a>
+                    <a href="#home">Live striming</a>
+                    <a href="#home">Contat method</a>
+                </div>
+                <div class="footer__right-item">
+                    <h3 class="footer__right-title">About Us</h3>
+                    <a href="#home">About us</a>
+                    <a href="#home">Features</a>
+                    <a href="#home">Privacy police</a>
+                    <a href="#home">Terms & Conditions</a>
+                </div>
+                <div class="footer__right-item">
+                    <h3 class="footer__right-title">support</h3>
+                    <a href="#home">F.A.Q.</a>
+                    <a href="#home">Contact us</a>
+                    <a href="#home">Live chat</a>
+                    <a href="#home">Phone call</a>
+                </div>
+            </div>
+        </div>
+        <div class="footer__copyrights">
+            <div class="footer__divider"><img src="img/features/divider.png" alt="divider"></div>
+            <div class="footer__copyrights-items">
+                <div class="footer__copyrights-link">For more freebies visit: <a href="#home">http://getcraftwork.com</a>
+                </div>
+                <div class="footer__copyrights-autor">
+                    <p>Made with Love by</p>
+                    <a href="#home" class="footer__copyrights-svglink>
+                        <svg xmlns=" http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xmlns:svgjs="http://svgjs.com/svgjs" width="109" height="37" viewBox="0 0.817 109 35.365"
+                        fill="#26272d"><svg xmlns="http://www.w3.org/2000/svg" width="109" height="37"
+                            viewBox="2 1.96 108 35.041">
+                            <path class="footer__copyrights-svg" paint-order="stroke fill markers" fill-rule="evenodd"
+                                d="M48.458 25.957c-.306.198-.45 1.708-1.315 1.702-1.534-.01-.228-3.22.155-4.502.224-.751.967-3.118 2.315-7.167 2.327-.365 4.589-.955 5.201-1.549 1.534-1.49 2.41-3.83 2.41-3.83s-2.095.678-6.393 1.492L53.28 4.04s-.199-.35-.657-.124c-.833.41-2.085 1.08-2.524 1.613-.536.65-1.589 3.696-2.679 7.165l-.276.044c-1.406.22-2.718.412-3.974.57l.355-.691c.482-.55 1.862-3.026 2.62-4.36 1.462-2.566 1.037-4.347.562-5.005-.589-.815-2.195-.965-3.188-.35-.624.388-1.039 1.122-1.45 2.431-.79 2.522-2.27 7.284-2.27 7.284s-.187.513-.383 1.076c-3.394.25-6.6.183-10.461-.317-4.01-.519-7.232-1.277-10.3.213-.69.335-1.255.7-1.704 1.04-.249-2.42-2.799-3.422-4.212-3.593-2.218-.27-4.383.275-6.656 2.518a13.633 13.633 0 0 0-3.552 6.021c-1.01 3.64-.504 6.267.912 7.947 1.817 2.153 5.532 2.367 7.826.853 1.033-.68 2.41-2.264 3.11-5.275.275.043.674.035.998.006 1.452-.133 2.135-1.279 2.23-1.376-.235.885-.54 1.826-1.131 3.575-.366 1.082-.574 2.206.08 3.038.62.79 1.464.785 2.19.806 1.718.05 3.833-2.1 3.833-2.1s.205 1.974 3.094 2.1c2.274.098 3.416-1.653 3.416-1.653s.048 1.519 2.027 1.653c1.916.13 3.48-1.98 4.534-4.008l-1.974 5.936s-.911 2.94-.055 4.555c.685 1.293 2.506 1.493 3.37 1.31.907-.192 2.273-.618 3.685-3.204 1.679-3.074 2.001-10.374 2.027-11.794.05-2.684-.094-3.137-.369-5.587l3.249-.002c.226 0 .469-.007.72-.018-1.157 3.857-2.162 7.409-2.388 8.077-1.534 4.54 1.906 4.92 2.41 4.924 3.449.022 4.325-2.318 4.325-2.318s.402-.84.325-1.064c-.219-.638-1.858-.425-2.516 0zM45.201 5.242c.239-.755.81-1.403 1.066-.713.256.691-.292 3.084-1.753 5.32-.524.802-1.474 2.441-1.675 2.744.492-1.444 1.814-5.617 2.362-7.351zM13.714 21.928c-.22 0-1.26-.302-1.48-1.579-.18-1.049.814-1.071 1.151-.727.817.835.33 2.306.33 2.306zm15.456 2.5c-.365 1.235-1.066 2.141-1.58 2.468-.819.52-2.21.445-2.32-1.085-.05-.706.192-1.968 1.032-3.843.813-1.814 1.652-2.757 2.548-2.639 1.242.165 1.014 1.514 1.014 1.514.086.656-.24 2.053-.694 3.586zm3.068 2.633c-.988.01-.399-1.902-.213-2.455.312-.927 2.076-6.461 2.076-6.461s-2.01-.224-2.63.215c-.288.203-.877 1.101-.877 1.101s.01-1.233-1.525-1.316c-1.534-.083-2.781.542-3.98 1.678-2.886 2.73-2.822 6.132-2.822 6.132s-1.75 1.895-2.754.876c-.432-.44.404-2.618.767-3.735.566-1.743 1.534-4.951 1.534-4.951s-2.23-.127-2.849.215c-1.008.555-1.677 2.534-2.622 3.324-.7.584-1.676.458-1.818.347 0 0 .413-1.22-.099-2.391-.585-1.34-2.004-1.15-2.52-.815-.657.425-.802 1.317-.53 2.216.274.904 1.304 1.78 2.01 1.933-.182.86-.648 1.893-1.525 2.957-1.48 1.797-3.564 1.663-4.793-.099-.954-1.366-.713-4.94.749-7.967 1.46-3.026 2.875-4.014 4.461-4.37 1.88-.42 3.607.88 3.164 3.04l-.074.309s-.045.196.042.285c.259.261 1.002.499 2.149-.773 1.739-1.93 6.237-1.438 12.272-.638 3.492.462 5.377.592 8.743.628l-1.989 5.98c-.987 2.174-2.53 4.716-4.347 4.735zm7.87 3.742c-1.082 2.647-1.978 3.267-2.647 3.528-.62.244-.911.057-1.065-.364-.201-.55.17-1.807.17-1.807l4.88-15.077c.74 5.041-.278 11.13-1.338 13.72zm67.482-16.336c1.534-1.489 2.41-3.945 2.41-3.945s-1.85 1-8.138 2.029l.346-.498c.482-.55 1.886-3.014 2.62-4.36 1.6-2.93 1.037-4.348.562-5.006-.588-.815-2.195-.964-3.188-.349-.624.387-1.039 1.122-1.45 2.431-.79 2.522-2.27 7.284-2.27 7.284s-.179.49-.37 1.04c-5.387.675-9.743.7-15.286-.018-4.01-.519-7.013-1.064-10.08.426-.586.283-1.078.589-1.49.882-.074-1.391-.951-3.312-4.72-3.486-1.928-.089-4.557.81-6.63 2.768-.883.833-2.675 2.862-3.552 6.02-1.01 3.64-.504 6.268.913 7.947 1.816 2.153 4.785 1.787 6.055.976a4.894 4.894 0 0 0 1.753-1.916c.438.852.913 1.403 1.522 1.891 1.061.851 3.689 1.153 5.663-1.914.468-.727.841-1.95 1.078-2.899.04.007.455.167.895.16.439-.007.901-.182 1.139-.364-.478 1.856-.329 3.504.668 4.592 1.648 1.8 7.075 1.906 8.491-4.809.864-.358 1.469-.754 2.093-1.595.186.097 1.123.695 2.51.02.19-.092-.6 1.85-1.19 3.6-.367 1.082-.575 2.206.079 3.037.621.79 1.465.798 2.191.807 2.345.026 4.518-3.988 4.518-3.988l-1.2 3.353s-.163.622.494.622c1.096 0 1.395.039 1.998.039.438 0 .576-.66.576-.66l1.081-2.98s1.753-.014 1.753 1.49c0 1.277.65 2.091 2.103 2.128.947.024 2.5-.107 3.248-1.046.19-.238.61-1.063.676-1.249.15-.426.559-1.026-.301-1.19-.315-.06-1.343.08-1.343.08s-.657 0-.945.852c-.144.427-.37 1.063-.808 1.063-.878 0 0-1.276-1.534-2.34-.548-.38-2.103-.404-2.191-.426.51-.06 1.279.082 2.76-.638 1.315-.638 3.595-1.49 3.814-4.894.137-2.134-3.814-2.34-5.348 0l1.013-3.223c2.348-.203 6.171-.927 7.012-1.744zm-3.705-9.79c.239-.756.811-1.404 1.067-.713.255.69-.293 3.084-1.754 5.32-.524.802-1.474 2.441-1.675 2.744.492-1.444 1.814-5.618 2.362-7.352zM65.952 22.65s-.612-2.26 0-3.405c.547-1.023 1.297-.538 1.315.213.048 2.04-1.315 3.192-1.315 3.192zm17.33-1.097c-.218.006-.457.009-.722.009-1.096 0-2.312-.24-2.41.425-.22 1.49 2.703 1.642 2.739 1.642-.013.068-.046.205-.056.273-1.15 4.043-4.217 4.043-4.656 2.34-.244-.946-.042-2.388.658-4.042 1.26-2.978 3.068-3.191 3.725-2.553.614.596.762 1.24.723 1.906zm3.362-.966c.03-.022-.988-.562-.486-1.56.215-.426.906-.43 1.1.107.15.417-.166 1.17-.614 1.453zm9.3.073s-1.564 3.993-3.121 5.501c0 0-1.552 1.683-2.066.72-.283-.53.733-3.138 1.096-4.255l1.43-4.413s-2.395-.268-3.053.583c-.147.19-.88 1.322-1.534 1.915-.666.604-1.205.462-1.389.282 0 0 1.158-1.305.476-2.4-.508-.815-1.452-.709-1.926-.47-.516.26-.845.825-.695 1.65.05.274.288.983.713 1.356-.13.14-.457.266-1.163.314-.08-1.735-.773-3.474-3.537-3.494-1.756-.012-4.061 1.4-5.204 3.908-.113.114-.465.655-1.52.556-.332-.031-.602-.087-.797-.385.178-2.046-.006-3.222-.915-3.542-.358-.125-1.263-.047-1.593.763-.402.989.08 2.228.853 3.256-.055.903-.177 1.886-.615 2.674-2.145 3.854-5.432.45-5.213-1.04 4.383-6.17.428-7.266-.898-6.554-2.687 1.443-1.05 6.426-.89 6.898-.049 1.025-2.548 2.66-3.91.933-1.074-1.362-.412-5.508 1.049-8.535 1.461-3.027 3.698-4.062 5.67-4.019 1.558.035 2.252.826 2.391 1.972.063.52-.045 1.384-.185 2.012-.06.27.498 1.336 2.47-.58 1.985-1.926 4.595-2.086 10.958-.85 4.623.897 10.183.886 14.44.86-.6 1.974-1.322 4.384-1.322 4.384zm6.032.902c-1.404 2.725-3.926 2.34-3.926 2.34l.858-2.553c1.095-2.34 4.82-3.191 3.068.213z" />
+                        </svg></svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!--Footer-->
+    <!-- jQuery -->
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+    <!-- jQuery -->
+    <script src="./js/index.js"></script>
+    <script src="./js/customers-slider.js"></script>
+    <script src="./js/imgSlider.js"></script>
+    <script src="./js/star.js"></script>
+</body>
+
+</html>
